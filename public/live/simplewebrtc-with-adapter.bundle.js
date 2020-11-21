@@ -24761,7 +24761,15 @@ function WebRTC(opts) {
             // makes the entire PC config overridable
             peerConnectionConfig: {
                 iceServers: [
-                {'urls': 'stun:stun.l.google.com:19302'}]
+                {
+                  'urls': 'stun:stun.l.google.com:19302'
+                },
+                {
+                  "url": "turn:your.turn.servers.here",
+                  "username": "your.turn.server.username",
+                  "credential": "your.turn.server.password"
+              }
+              ]
             },
             peerConnectionConstraints: {
                 optional: []
