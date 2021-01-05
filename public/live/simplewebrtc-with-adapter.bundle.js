@@ -24765,9 +24765,9 @@ function WebRTC(opts) {
                   'urls': 'stun:stun.l.google.com:19302'
                 },
                 {
-                  "url": "turn:your.turn.servers.here",
-                  "username": "your.turn.server.username",
-                  "credential": "your.turn.server.password"
+                  "url": "turn:turn.kodyazdir.com:5349",
+                  "username": "mertcan",
+                  "credential": "q1w2e3r4"
               }
               ]
             },
